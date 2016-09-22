@@ -1,0 +1,23 @@
+{
+    "name": "leo108/php_cas_server_oauth_wechat",
+    "description": "Wechat oauth plugin for php_cas_server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leo108",
+            "email": "leo108@qq.com"
+        }
+    ],
+    "homepage": "https://github.com/leo108/php_cas_server_oauth_wechat",
+    "autoload": {
+        "psr-4": {
+            "Leo108\\CASServer\\OAuth\\WeChat\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "5.2.*",
+        "overtrue/wechat": "^3.1",
+        "leo108/php_cas_server_oauth_plugin_center": "@dev"
+    }
+}
