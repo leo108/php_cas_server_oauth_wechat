@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b366b0d725f88d8bf90a746131322d3b",
-    "content-hash": "3f202bcdae6699d7e387675f1befd3c1",
+    "hash": "29005b573d210ca7bff3332f785cb70f",
+    "content-hash": "44b0db6acb4eb6d515f7dc0876cfe75d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -762,7 +762,7 @@
         },
         {
             "name": "leo108/php_cas_server_oauth_plugin_center",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leo108/php_cas_server_oauth_plugin_center.git",
@@ -2328,9 +2328,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "leo108/php_cas_server_oauth_plugin_center": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
