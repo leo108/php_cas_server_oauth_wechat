@@ -47,9 +47,10 @@ class WeChatMpPlugin extends Plugin
 
     /**
      * @param Request $request
+     * @param string  $callback
      * @return OAuthUser
      */
-    public function getOAuthUser(Request $request)
+    public function getOAuthUser(Request $request, $callback = null)
     {
         /* @var User $user */
         $user      = app('cas.server.wechat.mp')->oauth->setRequest($request)->user();
